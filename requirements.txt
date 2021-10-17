@@ -1,0 +1,4 @@
+aspell-python-py3==1.15
+numpy==1.18.0
+ufal.udpipe==1.2.0.3
+unidecode==1.0.22
