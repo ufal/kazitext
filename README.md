@@ -2,7 +2,7 @@
 
 KaziText is a tool for modelling common human errors. It estimates probabilities of individual error types (so called aspects) from grammatical error correction corpora in M2 format.
  
-The tool was introduced in [Understanding Model Robustness to User-generated Noisy Texts](https://arxiv.org/pdf/2110.07428.pdf).
+The tool was introduced in [Understanding Model Robustness to User-generated Noisy Texts](https://aclanthology.org/2021.wnut-1.38.pdf).
 
 ## Requirements
 
@@ -45,4 +45,23 @@ To **estimate** normalization alphas file, see ```estimate_alpha.sh``` that desc
 ## Other notes
 
 - Russian RULEC-GEC was normalized using ```normalize_russian_m2.py```
+
+## Citation
+
+```
+@inproceedings{naplava-etal-2021-understanding,
+    title = "Understanding Model Robustness to User-generated Noisy Texts",
+    author = "N{\'a}plava, Jakub  and
+      Popel, Martin  and
+      Straka, Milan  and
+      Strakov{\'a}, Jana",
+    booktitle = "Proceedings of the Seventh Workshop on Noisy User-generated Text (W-NUT 2021)",
+    month = nov,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.wnut-1.38",
+    pages = "340--350",
+}
+```
 
